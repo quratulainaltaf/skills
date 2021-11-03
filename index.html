@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter-14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h2 id="headingfirst">Available Phones at ABC Store</h2>
+        <ol>
+            <li>Apple</li>
+               <ul>
+                 <li>iPhone 4</li>
+                 <li>iPhone 4S</li>
+                 <li>iPhone 5</li>
+                 <li>iPhone 5S</li>
+                 <li>iPhone 6</li>
+                 <li>iPhone 6 Plus</li>
+               </ul>
+            <li>Samsung</li>
+                <ul>
+                 <li>Galaxy S4</li>
+                 <li>Galaxy S5</li>
+                 <li>Galaxy Note3</li>
+                 <li>Galaxy Note4</li>
+                </ul>
+            <li>Huawei</li>
+                <ul>
+                 <li>Honor 4X</li>
+                 <li>Honor 6</li>
+                 <li>Ascend Y550</li>
+                 <li>Ascend G700</li>
+                </ul>
+        </ol>
+        <br>
+        <hr/> 
+        <h2 id="headingtwo">skills development workshop</h2>
+        <p>We will conduct Skills Development workshops every tuesday.</p>
+        <table id="firsttable" cellspacing="0" cellpadding="4" >
+            <tr class="firstrow">
+                <th></th> 
+                <th>9am</th>
+                <th>10am</th>
+                <th>11am</th>
+                <th>12am</th>
+            </tr>
+            <tr class="secondrow">
+                <th>Monday</th>
+                <td colspan="2">Geography</td>
+                <td>Math</td>
+                <td>Art</td>
+            </tr>
+            <tr class="thirdrow">
+                <th>Tuesday</th>
+                <td colspan="3">Skills Development workshop</td>
+                <td>Home Ec</td>
+            </tr>
+        </table>
+        <hr/>
+        <h2>program schedule</h2>
+        <table cellspacing="0" id="secondtable" cellpadding="4">
+            <tr class="firstrow">
+               <th></th>
+               <th>ABC</th>
+               <th>BBC</th>
+               <th>CNN</th>
+            </tr>
+            <tr class="secondrow">
+                <th>6pm-7pm</th>
+                <td rowspan="2">Movie</td>
+                <td>Comedy</td>
+                <td>News</td>
+            </tr>
+            <tr class="thirdrow">
+                <th>7pm-8pm</th>
+                <td>Sport</td>
+                <td>Current Affairs</td>
+            </tr>
+        </table>
+        <br>
+        <hr/> 
+        <fieldset>
+            <legend>Subscribe Now</legend>
+            <label for="Yourname">Your name:</label>
+            <input type="text" name="username" id="Yourname" size="15px" class="name"/><br/>
+            <label for="Your email">Your email:</label>
+            <input type="email" name="email" id="Your email"  size="15px" class="email"/><br/>
+            <label for="country" class="dropdown">Country:</label>
+            <select name="country" id="country">
+                <option value="pakistan">Pakistan</option> 
+                <option value="china">China</option>
+                <option value="india">India</option>
+                <option value="england">England</option>
+                <option value="newzealand">New Zealand</option>
+                <option value="australia">Australia</option>
+            </select><br/>
+            <label for="member" class="radio">Are you a member?</label>
+            <input type="radio" id="member" name="member" class="choose"/>Yes
+            <input type="radio" id="member" name="member" class="choose"/>No
+        </fieldset>
+        <input type="button" name="subscribe" value="subscribe" id="button"/>
+    </div>
+</body>
+</html>

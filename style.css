@@ -1,0 +1,146 @@
+div{
+    background-color:rgba(219,217, 217 ,0.267);
+    margin: 20px 20px 20px 20px;
+    font-family: Arial, Verdana, sans-serif;
+}
+ol{
+    list-style-image: url("images/icon-plus.png");
+    color: #656468;
+    margin-left: 40px;
+}
+ol ul{
+    list-style-image: url("images/star.png");
+}
+#headingfirst{
+    color:rgba(32, 32, 32, 0.568);
+    padding-top: 50px;
+    padding-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#headingtwo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(94, 93, 93);
+    padding-left: 30px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+h2{
+    color: rgb(94, 93, 93);
+    padding-left: 30px;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+p{
+    padding-left: 30px;
+    color: rgba(32, 32, 32, 0.568);
+}
+#firsttable{
+    margin-left: 30px;
+    width: 420px;
+    height: 85px;
+    margin-bottom: 20px;
+    color: rgb(88, 87, 87);
+    border-bottom: 1px solid rgba(105, 104, 104, 0.993);
+}
+#secondtable{
+    margin-left: 30px;
+    width: 400px;
+    height: 80px;
+    margin-bottom: 20px;
+    color: rgb(88, 87, 87);
+    border-bottom: 2px solid rgba(105, 104, 104, 0.993);
+}
+.firstrow{
+     background-color: rgb(143, 181, 216);
+     color: white;
+     text-shadow:3px top rgba(0, 0, 0, 0.568);
+}
+ .secondrow{
+     background-color: rgba(164, 197, 209, 0.384);
+     
+ }   
+ .thirdrow{
+     background-color: rgba(164, 197, 209, 0.384);    
+ }
+ .firstrow th{
+     border: 1px solid rgba(105, 104, 104, 0.993);
+ }
+ .secondrow th,td{
+     border-left:1px solid rgba(105, 104, 104, 0.993);
+     border-right: 1px solid rgba(105, 104, 104, 0.993);
+     padding-left: 10px;
+ }
+ .thirdrow th,td{
+     border-left:1px solid rgba(105, 104, 104, 0.993);
+     border-right: 1px solid rgba(105, 104, 104, 0.993);
+     border-top:2px solid rgba(164, 197, 209, 0.384);
+     padding-left: 10px;
+ }
+ fieldset{
+    width: 320px;
+    height: 220px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: white;
+    color: rgba(88, 87, 87, 0.815);
+    border: 2px solid rgba(196, 189, 189, 0.973);
+}
+legend{
+    border: 1px transparent;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+label{
+    margin-right: 81px;
+    
+}
+.dropdown{
+    margin-right: 99px;
+}
+.radio{
+    margin-right: 25px;
+}
+.name{
+   background-image: url("images/icon-plus.png");
+   background-repeat: no-repeat;
+   background-size: 15px;
+   background-position: 2px 9px;
+   width: 150px;
+   height: 28px;
+   background-color: rgba(220, 220, 220, 0.664);
+   border: 2px solid rgba(128, 128, 128, 0.548);
+   border-radius: 6px;
+   margin-left: 150px;
+   
+}
+.email{
+    background-image: url("images/email.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 2px 9px;
+    width: 150px;
+    height: 28px;
+    background-color: rgba(220, 220, 220, 0.664);
+    border: 2px solid rgba(128, 128, 128, 0.61);
+    border-radius: 6px;
+    margin-left: 150px;
+}
+select{
+    margin-top: 15px;
+    width: 75px;
+    height:20px;
+}
+.choose{
+    margin-top: 25px;
+}
+#button{
+    margin-left: 270px;
+    margin-top: 10px;
+    height: 28px;
+    width: 73px;
+    border: 1px solid rgba(0, 128, 0, 0.767);
+    border-radius: 6px;
+    color:white;
+    background-color: rgb(30, 139, 97);
+    text-transform: capitalize;
+}
